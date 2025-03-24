@@ -13,7 +13,9 @@ connectDB();
 const app = express();
 
 // Middleware
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ 
+  origin: ['http://localhost:3000', 'https://rashaduldev.vercel.app'] 
+}));
 app.use(express.json());
 
 // Routes
@@ -23,7 +25,7 @@ app.use('/api/auth', authRoutes);
 app.get('/', (req, res) => {
   res.json({ 
     message: "Server is Running",
-    success: "true" // Note: Consider using boolean true instead of string "true"
+    success: true // Use boolean true instead of string "true"
   });
 });
 

@@ -65,6 +65,6 @@ your-backend-repo/
 │   └── auth.js       # Authentication routes
 ├── .env              # Environment variables (not tracked)
 ├── .gitignore        # Git ignore file
-├── server.js         # Main server file
+├── index.js         # Main server file
 ├── package.json      # Dependencies and scripts
 └── README.md         

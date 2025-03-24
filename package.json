@@ -1,11 +1,12 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+   "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "build": "npm install && echo 'Backend prepared for production'"
   },
   "keywords": [],
   "author": "",
