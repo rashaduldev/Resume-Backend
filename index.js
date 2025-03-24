@@ -25,7 +25,7 @@ app.use('/api/auth', authRoutes);
 app.get('/', (req, res) => {
   res.json({ 
     message: "Server is Running",
-    success: true // Use boolean true instead of string "true"
+    success: true 
   });
 });
 
